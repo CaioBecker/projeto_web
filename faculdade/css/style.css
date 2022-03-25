@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #071b4d, black);
+}
+
+.conteiner .menuWebSite
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.conteiner .menuWebSite .logo
+{
+    position: relative;
+    height: 5rem;
+    width: 8rem;
+    transition: .5s;
+}
+
+.conteiner .menuWebSite .logo:hover
+{
+    position: relative;
+    height: 5rem;
+    width: 25rem;
+}
+
+.conteiner .menuWebSite .logo h3
+{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: white;
+}
+
+.conteiner .menuWebSite .logo img
+{
+    width: 8.5rem;
+    position: absolute;
+    top: 0;
+}
+
+.conteiner .menuWebSite .menu
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 3.5rem;
+    width: 35rem;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.conteiner .menuWebSite .menu a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.conteiner .menuWebSite .menu ul
+{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.conteiner .menuWebSite .menu li
+{
+    list-style-type: none;
+}
+
+
+
+.conteiner .content
+{
+    width: 100%;
+    height: 50rem;
+    background-color: white;
+}
