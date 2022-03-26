@@ -23,8 +23,8 @@ body{
     z-index: 5;
     background: rgba( 255, 255, 255, 0.4 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 6px );
-    -webkit-backdrop-filter: blur( 6px );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
@@ -66,7 +66,7 @@ body{
     top: 50%;
     transform: translateY(-50%);
     height: 3.5rem;
-    width: 35rem;
+    width: 45rem;
     padding: 10px;
     display: flex;
     justify-items: center;
@@ -77,6 +77,14 @@ body{
 {
     text-decoration: none;
     color: white;
+    padding: 1rem ;
+    border-radius: .3rem;
+    transition: 0.5s;
+}
+
+.conteiner .menuWebSite .menu a:hover
+{
+    background-color: #071b4d;
 }
 
 .conteiner .menuWebSite .menu ul
@@ -90,11 +98,57 @@ body{
     list-style-type: none;
 }
 
-
-
 .conteiner .content
 {
     width: 100%;
-    height: 50rem;
+    height: 40rem;
+    background-color: linear-gradient(135deg, #071b4d, black);
+}
+
+.conteiner .content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner .content .carrosselImagens
+{
+    width: 65%;
+    height: 34rem;
+    padding: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(167, 167, 167, 0.692);
+    border-radius: 1rem;
+}
+
+.conteiner .content .carrosselImagens .carousel-inner img
+{
+    width: 30rem;
+    position: relative;
+    left: 50%;
+    border-radius: .2rem;
+    transform: translateX(-50%);
+}
+
+.conteiner .content .carrosselImagens .carousel-caption h3, p
+{
+    font-weight: 450;
+    letter-spacing: 4px;
+}
+
+.conteiner .pontosTuriscticos
+{
+    width: 100%;
+    height: 45rem;
     background-color: white;
+    position: relative;
+}
+
+.conteiner .pontosTuriscticos .ConteudoPontosTuristicos
+{
+    width: 60%;
+    height: 55%;
+    position: absolute;
+
+    background-color: red;
 }
