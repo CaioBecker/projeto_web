@@ -127,7 +127,7 @@
 
 .conteiner .content .carrosselImagens .carousel-inner img
 {
-    width: 30rem;
+    width: 55rem;
     position: relative;
     left: 50%;
     border-radius: .2rem;
@@ -138,7 +138,7 @@
 {
     font-weight: 550;
     letter-spacing: 3px;
-    color: #ffc60b;
+    font-style: italic;
 }
 
 .conteiner .pontosTuriscticos
