@@ -6,10 +6,6 @@
     font-family: 'Varela Round', sans-serif;
 }
 
-body{
-    background: linear-gradient(135deg, #071b4d, black);
-}
-
 .conteiner .menuWebSite
 {
     display: flex;
@@ -22,7 +18,7 @@ body{
     top: 0;
     z-index: 5;
     background: rgba( 255, 255, 255, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 2px 48px 0 rgba(27, 31, 95, 0.37);
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -41,6 +37,9 @@ body{
     position: relative;
     height: 5rem;
     width: 25rem;
+    border-radius: 3rem;
+    background-color: white;
+    box-shadow: 0 4px 1.2rem 0 rgba(74, 75, 83, 0.37);
 }
 
 .conteiner .menuWebSite .logo h3
@@ -50,7 +49,12 @@ body{
     right: 10%;
     transform: translateY(-50%);
     font-size: 1.2rem;
-    color: white;
+    color: #f1d014;
+}
+
+.conteiner .menuWebSite .logo
+{
+    border-radius: 0;
 }
 
 .conteiner .menuWebSite .logo img
@@ -66,7 +70,7 @@ body{
     top: 50%;
     transform: translateY(-50%);
     height: 3.5rem;
-    width: 45rem;
+    width: 48rem;
     padding: 10px;
     display: flex;
     justify-items: center;
@@ -76,15 +80,17 @@ body{
 .conteiner .menuWebSite .menu a
 {
     text-decoration: none;
-    color: white;
     padding: 1rem ;
+    color: #f1d014;
     border-radius: .3rem;
+    letter-spacing: .1rem;
     transition: 0.5s;
 }
 
 .conteiner .menuWebSite .menu a:hover
 {
-    background-color: #071b4d;
+    box-shadow: 0 4px 1.2rem 0 rgba(74, 75, 83, 0.37);
+    background-color: white;
 }
 
 .conteiner .menuWebSite .menu ul
@@ -102,7 +108,6 @@ body{
 {
     width: 100%;
     height: 40rem;
-    background-color: linear-gradient(135deg, #071b4d, black);
 }
 
 .conteiner .content
@@ -114,10 +119,9 @@ body{
 
 .conteiner .content .carrosselImagens
 {
-    width: 65%;
-    height: 34rem;
+    width: 75%;
+    height: 35rem;
     padding: 2rem;
-    box-shadow: 0 8px 32px 0 rgba(167, 167, 167, 0.692);
     border-radius: 1rem;
 }
 
@@ -132,8 +136,9 @@ body{
 
 .conteiner .content .carrosselImagens .carousel-caption h3, p
 {
-    font-weight: 450;
-    letter-spacing: 4px;
+    font-weight: 550;
+    letter-spacing: 3px;
+    color: #ffc60b;
 }
 
 .conteiner .pontosTuriscticos
@@ -146,9 +151,17 @@ body{
 
 .conteiner .pontosTuriscticos .ConteudoPontosTuristicos
 {
-    width: 60%;
-    height: 55%;
-    position: absolute;
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
 
+.conteiner .pontosTuriscticos .ConteudoPontosTuristicos .Conteudo
+{
+    width: 80%;
+    height: 85%;
     background-color: red;
 }
