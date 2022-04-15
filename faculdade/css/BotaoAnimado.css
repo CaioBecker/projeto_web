@@ -1,0 +1,44 @@
+.FormatacaoBtn
+{
+    color: white;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.BtnAnimacao
+{
+    color: white;
+    border: 1px solid white;
+    z-index: 1;
+}
+.BtnAnimacao:after 
+{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: white;
+    box-shadow: 0 0 20px white;
+    transition: all 0.3s ease;
+}
+.BtnAnimacao:hover 
+{
+    color: black;
+}
+.BtnAnimacao:hover:after 
+{
+    left: 0;
+    width: 100%;
+}
+.BtnAnimacao:active 
+{
+  top: 2px;
+}
