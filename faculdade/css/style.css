@@ -163,5 +163,11 @@
 {
     width: 80%;
     height: 85%;
-    background-color: red;
+
+}
+
+.conteiner .pontosTuriscticos .ConteudoPontosTuristicos .Conteudo img
+{
+    width: 25rem;
+
 }
