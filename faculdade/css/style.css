@@ -131,7 +131,7 @@
     transform: translateX(-50%);
 }
 
-.Conteiner .ConteudoDeApresentacao .CarrosselImagens .carousel-caption h3, p
+.Conteiner .ConteudoDeApresentacao .CarrosselImagens .carousel-inner .carousel-item .carousel-caption h3, p
 {
     font-weight: 550;
     letter-spacing: 3px;
@@ -141,33 +141,158 @@
     background-color: rgba(11, 12, 12, 0.438);
 }
 
-.Conteiner .pontosTuriscticos
+.Conteiner .ConteudoInformacao
 {
     width: 100%;
-    height: 45rem;
-    background-color: white;
-    position: relative;
-}
-
-.Conteiner .pontosTuriscticos .ConteudoPontosTuristicos
-{
-    width: 100%;
-    height: 45rem;
+    height: 40rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
 }
 
-.Conteiner .pontosTuriscticos .ConteudoPontosTuristicos .Conteudo
+.Conteiner .ConteudoInformacao .ConteudoPontosTuristicos
 {
-    width: 80%;
-    height: 85%;
-
+    width: 22.3rem;
+    height: 86%;
+    position: relative;
+    transition: .4s ease-out;
 }
 
-.conteiner .pontosTuriscticos .ConteudoPontosTuristicos .Conteudo img
+.Conteiner .ConteudoInformacao .ConteudoPontosTuristicos:hover
 {
-    width: 25rem;
+    width: 44.5rem;
+}
 
+.Conteiner .ConteudoInformacao .ConteudoPontosTuristicos .PontosTuristicosImagem
+{
+    position: absolute;
+    left: 0;
+    width: 22.3rem;
+    height: 100%;
+    z-index: 1;
+}
+
+.Conteiner .ConteudoInformacao .ConteudoPontosTuristicos .PontosTuristicosImagem img
+{
+    width: 22.3rem;
+    height: 100%;
+}
+
+.Conteiner .ConteudoInformacao .ConteudoPontosTuristicos .PontosTuristicosInformacao
+{
+    position: absolute;
+    right: 0;
+    width: 22.3rem;
+    height: 100%;
+}
+
+.Conteiner .ConteudoInformacao .ConteudoPontosTuristicos .PontosTuristicosInformacao .PontosTuristicosTexto
+{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+    text-align: justify;
+}
+
+.Conteiner .ConteudoInformacao .ConteudoPontosTuristicos .PontosTuristicosInformacao .PontosTuristicosBotao
+{
+    position: absolute;
+    bottom: 8%;
+    right: 13%;
+}
+
+.Conteiner .ConteudoInformacao .ConteudoPontosTuristicos .PontosTuristicosInformacao .PontosTuristicosBotao a
+{
+    text-decoration: none;
+    color: white;
+    border-radius: .3rem;
+    letter-spacing: .1rem;
+    background-color: rgb(0, 15, 226);
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.Conteiner .ConteudoInformacao .ConteudoPontosTuristicos .PontosTuristicosInformacao .PontosTuristicosBotao a:hover
+{
+    background-color: rgb(0, 95, 238);
+}
+
+.Conteiner .ConteudoInformacaoInverso
+{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Conteiner .ConteudoInformacaoInverso .ConteudoPontosTuristicosInverso
+{
+    width: 22.3rem;
+    height: 86%;
+    position: relative;
+    transition: .4s ease-out;
+}
+
+.Conteiner .ConteudoInformacaoInverso .ConteudoPontosTuristicosInverso:hover
+{
+    width: 44.5rem;
+}
+
+.Conteiner .ConteudoInformacaoInverso .ConteudoPontosTuristicosInverso .PontosTuristicosImagemInverso
+{
+    position: absolute;
+    right: 0;
+    width: 22.3rem;
+    height: 100%;
+    z-index: 1;
+}
+
+.Conteiner .ConteudoInformacaoInverso .ConteudoPontosTuristicosInverso .PontosTuristicosImagemInverso img
+{
+    width: 22.3rem;
+    height: 100%;
+}
+
+.Conteiner .ConteudoInformacaoInverso .ConteudoPontosTuristicosInverso .PontosTuristicosInformacaoInverso
+{
+    position: absolute;
+    left: 0;
+    width: 22.3rem;
+    height: 100%;
+}
+
+.Conteiner .ConteudoInformacaoInverso .ConteudoPontosTuristicosInverso .PontosTuristicosInformacaoInverso .PontosTuristicosTextoInverso
+{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+    text-align: justify;
+}
+
+.Conteiner .ConteudoInformacaoInverso .ConteudoPontosTuristicosInverso .PontosTuristicosInformacaoInverso .PontosTuristicosBotaoInverso
+{
+    position: absolute;
+    bottom: 8%;
+    left: 13%;
+}
+
+.Conteiner .ConteudoInformacaoInverso .ConteudoPontosTuristicosInverso .PontosTuristicosInformacaoInverso .PontosTuristicosBotaoInverso a
+{
+    text-decoration: none;
+    color: white;
+    border-radius: .3rem;
+    letter-spacing: .1rem;
+    background-color: rgb(0, 15, 226);
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.Conteiner .ConteudoInformacaoInverso .ConteudoPontosTuristicosInverso .PontosTuristicosInformacaoInverso .PontosTuristicosBotaoInverso a:hover
+{
+    background-color: rgb(0, 95, 238); 
 }
