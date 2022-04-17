@@ -10,9 +10,16 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <link rel="stylesheet" href="./css/style.css">
+    
     <link rel="stylesheet" href="./css/BotaoAnimado.css">
     <link rel="stylesheet" href="./css/BotaoAnimado2.css">
+    <link rel="stylesheet" href="./css/Carrossel.css">
+    <link rel="stylesheet" href="./css/Conteudo_Animado.css">
+    <link rel="stylesheet" href="./css/Conteudo_DropDown.css">
+    <link rel="stylesheet" href="./css/Conteudo_Paginado.css">
+    <link rel="stylesheet" href="./css/Menu.css">
+    <link rel="stylesheet" href="./css/Rodape.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>São José Dos Campos</title>
 
@@ -29,10 +36,10 @@
             <div class="Menu">
                 <li>
                     <strong>
-                        <ul> <a href="#">Pontos Turísticos</a> </ul>
-                        <ul> <a href="#">Vida Noturna</a> </ul>
-                        <ul> <a href="#">Culinária</a> </ul>
-                        <ul> <a href="#">Empresarial</a> </ul>
+                        <ul> <a href="#PontosTuristicos">Pontos Turísticos</a> </ul>
+                        <ul> <a href="#VidaNoturna">Vida Noturna</a> </ul>
+                        <ul> <a href="#Culinaria">Culinária</a> </ul>
+                        <ul> <a href="#Empresarial">Empresarial</a> </ul>
                     </strong>
                 </li>
             </div>
@@ -93,7 +100,7 @@
             </div>
         </section>
 
-        <section class="ConteudoPaginado">
+        <section id="PontosTuristicos" class="ConteudoPaginado">
             <div class="ConteudoPaginadoSJC">
                 <div class="ConteudoPaginadoSJCImagem">
                     <img src="./Imagens/ponto_turistico_02.jpg" alt="Pontos Turísticos">
@@ -101,7 +108,7 @@
                 <div class="ConteudoPaginadoSJCInformacao">
                     <div class="ConteudoPaginadoSJCTexto">
                         <h3>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores sit accusamus suscipit quos possimus ea namquia reiciendis rem quam vel, in modi ipsam rerum nisi quis, sequi, hic fugit?
+                            Está na hora de descansar, e relaxar a cabeça depois de um longo mês de trabalho duro, mas não se esqueça de visitar os pontos turísticos da nossa cidade. O Parque Vicentino Aranha é um ótimo lugar para visitar, dentre muitos outros pontos da nossa cidade.
                         </h3>
                     </div>
                     <div class="ConteudoPaginadoSJCBotao">
@@ -111,7 +118,7 @@
             </div>
         </section>
 
-        <section class="ConteudoAnimado">
+        <section id="Culinaria" class="ConteudoAnimado">
             <div class="ConteudoAnimadoSJC">
                 <div class="ConteudoAnimadoSJCImagem">
                     <img src="./Imagens/culinaria_02.jpg" alt="Pontos Turísticos">
@@ -119,7 +126,7 @@
                 <div class="ConteudoAnimadoSJCInformacao">
                     <div class="ConteudoAnimadoSJCTexto">
                         <h4>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores sit accusamus suscipit quos possimus eanamquia reiciendis rem quam vel, in modi ipsam rerum nisi quis, sequi, hic fugit?
+                            Está com fome? Não se preocupe, a culinária da nossa cidade é muito boa! Aqui você encontra tudo o que precisa para se alimentar. E não esqueça de deixar um espacinho para o nosso famoso bolinho caipira.
                         </h4>
                     </div>
                     <div class="ConteudoAnimadoSJCBotao">
@@ -128,14 +135,14 @@
                 </div>
             </div>
     
-            <div class="ConteudoAnimadoSJCInverso">
+            <div id="VidaNoturna" class="ConteudoAnimadoSJCInverso">
                 <div class="ConteudoAnimadoSJCImagemInverso">
                     <img src="./Imagens/vidanoturna_02.jpg" alt="Pontos Turísticos">
                 </div>
                 <div class="ConteudoAnimadoSJCInformacaoInverso">
                     <div class="ConteudoAnimadoSJCTextoInverso">
                         <h4>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores sit accusamus suscipit quos possimus eanamquia reiciendis rem quam vel, in modi ipsam rerum nisi quis, sequi, hic fugit?
+                            Está tarde, mas não precisa ir embora, conheça as possibilidades de diversões noturnas que a cidade tem há oferecer.
                         </h4>
                     </div>
                     <div class="ConteudoAnimadoSJCBotaoInverso">
@@ -145,7 +152,7 @@
             </div>
         </section>
 
-        <section class="ConteudoPaginado">
+        <section id="Empresarial" class="ConteudoPaginado">
             <div class="ConteudoPaginadoSJC">
                 <div class="ConteudoPaginadoSJCImagem">
                     <img src="./Imagens/empresarial_02.jpg" alt="Pontos Turísticos">
@@ -153,7 +160,7 @@
                 <div class="ConteudoPaginadoSJCInformacao">
                     <div class="ConteudoPaginadoSJCTexto">
                         <h3>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores sit accusamus suscipit quos possimus ea namquia reiciendis rem quam vel, in modi ipsam rerum nisi quis, sequi, hic fugit?
+                            A Embraer é uma empresa de construção e desenvolvimento de aeronaves brasileira, fundada em 18 de setembro de 1892, com sede aqui, na nossa cidade. Venha nos conhecer e conhecer a nossa história.
                         </h3>
                     </div>
                     <div class="ConteudoPaginadoSJCBotao">
@@ -165,20 +172,56 @@
 
         <section class="ConteudoDropDown">
             <div class="ConteudoDropDownSJC">
-                <div class="ConteudoDropDownSJCTitulo" onclick="DropDown(this)">
-
+                <div class="ConteudoDropDownSJCCorpo" onclick="DropDown(this)">
+                    <div class="ConteudoDropDownSJCCorpoDoTitulo">
+                        <div class="ConteudoDropDownSJCTitulo">
+                            <h5>SJC É Tudo Isso?</h5>
+                        </div>
+                        <div class="ConteudoDropDownSJCIcone" >
+                            <img src="./Imagens/Icone_Drop_Down.svg" alt="Icone Drop Down">
+                        </div>
+                    </div>
+                    
+                    <div class="ConteudoDropDownSJCLista">
+                        <p>
+                            Sim, e muito mais! São José dos Campos é a cidade no vale do paraiba que mais se desenvolve e que mais se destaca por sua cultura, seu patrimônio cultural, seus pontos turístico e por sua grande taxa de empregabilidade por diversas empresas serem sitiadas aqui.
+                        </p>
+                    </div>
                 </div>
-                <div class="ConteudoDropDownSJCTitulo" onclick="DropDown(this)">
 
-                </div>
-                <div class="ConteudoDropDownSJCTitulo" onclick="DropDown(this)">
-
+                <div class="ConteudoDropDownSJCCorpo" onclick="DropDown(this)">
+                    <div class="ConteudoDropDownSJCCorpoDoTitulo">
+                        <div class="ConteudoDropDownSJCTitulo">
+                            <h5>Por Que Vir Para SJC?</h5>
+                        </div>
+                        <div class="ConteudoDropDownSJCIcone" >
+                            <img src="./Imagens/Icone_Drop_Down.svg" alt="Icone Drop Down">
+                        </div>
+                    </div>
+                    
+                    <div class="ConteudoDropDownSJCLista">
+                        <p>
+                            Se procura uma cidade com boas e grandes oportunidades de negócios, São José dos Campos tem movimentos constantes de pessoas de duas da maiores metrópoles do país, sendo elas o Rio de Janeiro para quem deseja vir pela costa do país, e de São Paulo para quem deseja as belas vistas que a Dutra proporciona.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <footer>
-            
+        <footer class="Fim">
+            <div class="SJC">
+                <img src="./Imagens/SJC.jpg" alt="São José dos Campos">
+            </div>
+
+            <div class="Identificacao">
+                <h3>Autores:</h3>
+                <ul>
+                    <li>Caio Becker Molina Escandell</li>
+                    <li>Fernando Kuwahara <a href="#" onclick="EasterEgg()">Cortes</a> de Oliveira</li>
+                    <li>Pedro Torres Carreteiro Soares</li>
+                    <li>Washington André Trevizan Junior</li>
+                </ul>
+            </div>
         </footer>
     </div>
 

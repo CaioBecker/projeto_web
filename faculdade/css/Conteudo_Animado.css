@@ -1,0 +1,133 @@
+.Conteiner .ConteudoAnimado
+{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJC
+{
+    width: 22rem;
+    height: 85%;
+    position: relative;
+    transition: .5s ease-out;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJC:hover
+{
+    width: 44rem;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJC .ConteudoAnimadoSJCImagem
+{
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 22rem;
+    height: 100%;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJC .ConteudoAnimadoSJCInformacao
+{
+    position: absolute;
+    right: 0;
+    width: 22rem;
+    height: 100%;
+    color: black;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJC .ConteudoAnimadoSJCImagem img
+{
+    width: 22rem;
+    height: 100%;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJC .ConteudoAnimadoSJCInformacao .ConteudoAnimadoSJCTexto
+{
+    width: 95%;
+    height: 45%;
+    padding: .5rem;
+    text-align: justify;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJC .ConteudoAnimadoSJCInformacao .ConteudoAnimadoSJCBotao
+{
+    text-align: justify;
+    position: absolute;
+    bottom: 2.5rem;
+    right: 3rem;
+}
+
+.Conteiner .ConteudoAnimado a
+{
+    text-decoration: none;
+} 
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso
+{
+    width: 22rem;
+    height: 85%;
+    position: relative;
+    transition: .5s ease-out;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso:hover
+{
+    width: 44rem;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso .ConteudoAnimadoSJCImagemInverso
+{
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    width: 22rem;
+    height: 100%;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso .ConteudoAnimadoSJCImagemInverso img
+{
+    width: 22rem;
+    height: 100%;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso .ConteudoAnimadoSJCInformacaoInverso
+{
+    position: absolute;
+    left: 0;
+    width: 22rem;
+    height: 100%;
+    color: black;
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso .ConteudoAnimadoSJCInformacaoInverso .ConteudoAnimadoSJCTextoInverso
+{
+    width: 95%;
+    height: 45%;
+    padding: .5rem;
+    text-align: justify;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso .ConteudoAnimadoSJCInformacaoInverso .ConteudoAnimadoSJCBotaoInverso
+{
+    text-align: justify;
+    position: absolute;
+    bottom: 2.5rem;
+    right: 3rem;
+}
+
+.Conteiner .ConteudoAnimado a
+{
+    text-decoration: none;
+} 
