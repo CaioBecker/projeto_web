@@ -1,0 +1,98 @@
+.Conteiner .MenuWebsite
+{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 100%;
+    height: 5rem;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 2px 10px 0 rgba(27, 31, 95, 0.37);
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 5;
+}
+
+.Conteiner .MenuWebsite .Logo
+{
+    position: relative;
+    height: 4.1rem;
+    width: 7rem;
+    border-radius: 0;
+    transition: .5s ease-out;
+}
+
+.Conteiner .MenuWebsite .Logo:hover
+{
+    position: relative;
+    width: 22rem;
+    border-radius: 0 3rem 3rem 0;
+    background-color: white;
+    box-shadow: 0 4px 1.2rem 0 rgba(74, 75, 83, 0.37);
+}
+
+.Conteiner .MenuWebsite .Logo h3
+{
+    letter-spacing: 0;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    font-size: 1.1rem;
+    color: #f1d014;
+}
+
+.Conteiner .MenuWebsite .Logo
+{
+    border-radius: 0;
+}
+
+.Conteiner .MenuWebsite .Logo img
+{
+    width: 7rem;
+    position: absolute;
+    top: 0;
+}
+
+.Conteiner .MenuWebsite .Menu
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-40%);
+    height: 3.5rem;
+    width: 48rem;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.Conteiner .MenuWebsite .Menu a
+{
+    text-decoration: none;
+    padding: 1rem ;
+    color: #f1d014;
+    border-radius: .6rem;
+    letter-spacing: .1rem;
+    transition: 0.5s;
+}
+
+.Conteiner .MenuWebsite .Menu a:hover
+{
+    box-shadow: 0 4px 1.2rem 0 rgba(74, 75, 83, 0.37);
+    background-color: white;
+}
+
+.Conteiner .MenuWebsite .Menu ul
+{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.Conteiner .MenuWebsite .Menu li
+{
+    list-style-type: none;
+}

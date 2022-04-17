@@ -1,0 +1,65 @@
+.Conteiner .ConteudoPaginado
+{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.Conteiner .ConteudoPaginado .ConteudoPaginadoSJC
+{
+    width: 95%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCImagem
+{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCImagem img
+{
+    width: 22.3rem;
+    height: 100%;
+}
+
+.Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCInformacao
+{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    color: white;
+}
+
+.Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCInformacao .ConteudoPaginadoSJCTexto
+{
+    width: 80%;
+    height: 40%;
+    text-align: justify;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCInformacao .ConteudoPaginadoSJCBotao
+{
+    text-align: justify;
+    position: absolute;
+    bottom: 5rem;
+    right: 8rem;
+}
+
+.Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCInformacao .ConteudoPaginadoSJCBotao a
+{
+    text-decoration: none;
+}
