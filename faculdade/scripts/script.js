@@ -8,7 +8,7 @@ function EasterEgg(){
     if(ConfirmacaoDoEsterEgg == null || ConfirmacaoDoEsterEgg == '')
         alert('Credenciais Não Encontradas!');
     else if(ConfirmacaoDoEsterEgg == 'Open')
-        window.open('https://js13kgames.com/games/underrun/index.html');
+        window.open('./html/tetris.html');
     else
-        alert('Tente Novamente! (Dica: JavaScript é Deus Na Web)');
+        alert('Tente Novamente! (Dica: Abrir, mas em outra Linguagem)');
 }
