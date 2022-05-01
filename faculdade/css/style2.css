@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     justify-items: center;
     align-items: center;
-    background: black;
+    background: white;
 }
 
 .Conteiner .Conteudo .ImagemDemo
@@ -27,7 +27,7 @@
     height: 30rem;
     text-align: justify;
     padding: 2rem;
-    color: white;
+    color: black;
     box-sizing: border-box;
 }
 
@@ -41,6 +41,7 @@
     justify-content: space-evenly;
     justify-items: center;
     align-items: center;
+    background-color: black;
 }
 
 .Conteiner .ConteudoInvertido .ImagemDemoInvertido
@@ -62,4 +63,5 @@
     text-align: justify;
     padding: 2rem;
     box-sizing: border-box;
+    color: white;
 }

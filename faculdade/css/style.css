@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.Conteiner .Aprensentacao
+{
+    padding: 2rem 0 .1rem 2rem;
+    letter-spacing: .2rem;
+    font-weight: 700;
+}
+
 .Conteiner .MenuWebsite
 {
     position: sticky;
@@ -434,7 +449,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     box-shadow: 0 5px 1rem 1rem rgba(74, 75, 83, 0.37);
 }
 
@@ -449,8 +464,8 @@
 
 .Conteiner .Fim .Identificacao
 {
-    width: 32rem;
-    height: 18rem;
+    width: 25rem;
+    height: 15rem;
     position: relative;
     color: white;
 }
