@@ -234,8 +234,6 @@
     position: relative;
 }
 
-/*****************************************************************************/
-
 .Conteiner .ConteudoAnimado .ConteudoAnimadoSJC
 {
     width: 22rem;
@@ -363,6 +361,10 @@
 } 
 
 /**************************************************************************************************************************/
+
+#Sumir2{
+    display: none;
+}
 
 .Conteiner .ConteudoDropDown
 {
@@ -522,4 +524,167 @@
     .header .menu-icon {
         display: none;
     }
+}
+
+@media screen and (max-width: 48em) {
+
+    .Conteiner .ConteudoPaginado
+    {
+        width: 100%;
+        height: 80rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+
+    .Conteiner .ConteudoPaginado .ConteudoPaginadoSJC
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCImagem
+    {
+        width: 20rem;
+        height: 30rem;
+    }
+
+    .Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCImagem img
+    {
+        width: 22.3rem;
+        height: 100%;
+    }
+
+    .Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCInformacao
+    {
+        width: 25rem;
+        height: 30rem;
+    }
+
+    .Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCInformacao .ConteudoPaginadoSJCTexto
+    {
+        width: 25rem;
+        height: 15rem;
+        top: 25%;
+        left: 50%;
+    }
+
+    .Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCInformacao .ConteudoPaginadoSJCBotao
+    {
+        text-align: justify;
+        position: absolute;
+        bottom: 3rem;
+        right: 2rem;
+    }
+
+    .Conteiner .ConteudoPaginado .ConteudoPaginadoSJC .ConteudoPaginadoSJCInformacao .ConteudoPaginadoSJCBotao a
+    {
+        text-decoration: none;
+    }
+
+/*************************************************************************************************************************/
+
+    .Conteiner .ConteudoAnimado
+    {
+        width: 100%;
+        height: 60rem;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJC
+    {
+        width: 22rem;
+        height: 85%;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJC:hover
+    {
+        width: 25rem;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJC .ConteudoAnimadoSJCImagem
+    {
+        left: 0;
+        width: 22rem;
+        height: 25rem;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJC .ConteudoAnimadoSJCImagem img
+    {
+        width: 22rem;
+        height: 100%;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJC .ConteudoAnimadoSJCInformacao
+    {
+        bottom: 0;
+        width: 22rem;
+        height: 25rem;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJC .ConteudoAnimadoSJCInformacao .ConteudoAnimadoSJCTexto
+    {
+        width: 98%;
+        height: 50%;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJC .ConteudoAnimadoSJCInformacao .ConteudoAnimadoSJCBotao
+    {
+        bottom: 2rem;
+        right: 2.5rem;
+    }
+
+    /*************************************/
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso
+    {
+        width: 22rem;
+        height: 85%;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso:hover
+    {
+        width: 25rem;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso .ConteudoAnimadoSJCImagemInverso
+    {
+        right: 0;
+        width: 22rem;
+        height: 25rem;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso .ConteudoAnimadoSJCImagemInverso img
+    {
+        width: 22rem;
+        height: 100%;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso .ConteudoAnimadoSJCInformacaoInverso
+    {
+        bottom: 0;
+        width: 22rem;
+        height: 25rem;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso .ConteudoAnimadoSJCInformacaoInverso .ConteudoAnimadoSJCTextoInverso
+    {
+        width: 98%;
+        height: 50%;
+    }
+
+    .Conteiner .ConteudoAnimado .ConteudoAnimadoSJCInverso .ConteudoAnimadoSJCInformacaoInverso .ConteudoAnimadoSJCBotaoInverso
+    {
+        bottom: 2rem;
+        right: 2.5rem;
+    }
+
+    #Sumir1{
+        display: none;
+    }
+
+    #Sumir2{
+        display: flex;
+    }
+
 }
