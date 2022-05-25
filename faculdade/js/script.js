@@ -8,7 +8,7 @@ function EasterEgg(){
     if(ConfirmacaoDoEsterEgg == null || ConfirmacaoDoEsterEgg == '')
         alert('Credenciais Não Encontradas!');
     else if(ConfirmacaoDoEsterEgg == 'tetris')
-        window.open('./html/tetris.html');
+        window.open('./js/tetris.html');
     else
         alert('Tente Novamente! (Dica: Digite O Nome Do Jogo)');
 }

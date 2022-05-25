@@ -6,6 +6,10 @@
     font-family: 'Varela Round', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .Conteiner .Aprensentacao
 {
     padding: 2rem 0 .1rem 2rem;
@@ -685,6 +689,29 @@
 
     #Sumir2{
         display: flex;
+    }
+
+    /*************************************/
+
+    .Conteiner .Fim
+    {
+        height: 45rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .Conteiner .Fim .SJC
+    {
+        width: 25rem;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Conteiner .Fim .Identificacao
+    {
+        height: 18rem;
     }
 
 }
